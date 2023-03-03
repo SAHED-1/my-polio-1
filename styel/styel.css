@@ -1,0 +1,229 @@
+
+body{font-family: 'Open Sans', sans-serif;
+}
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+ol,ul{list-style:none;}
+
+a{text-decoration: none;}
+/* common css == */
+.containar{
+    width: 1170px;
+    margin: auto;
+}
+
+
+
+
+.row{display: flex;
+flex-wrap: wrap;
+}
+.align-center{align-items: center;
+
+}
+
+.heading{
+    text-align: center;
+    color: #02918b;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 46px;
+    position: relative;
+   
+}
+.heading::after{
+    content:'';
+    width: 162px;
+    height: 9px;
+    background-image: url(../img/MYFOLIO\ row.png);
+    position: absolute;
+    bottom: -35px;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.button{ padding: 19px 42px;
+    color: #0b1016;
+    font-weight: 800;
+    font-size: 14px;
+    background-color: #cfc91d;
+    display: inline-block;}
+    /* common css ends here */
+
+/* navbar start here================ */
+nav{background-color: #02918b;}
+
+nav .logo{width: 40%;}
+nav .menu{width: 60%;
+text-align: right;
+}
+nav .menu ul li{display: inline-block;}
+nav .menu ul li a
+{color: aliceblue;
+font-weight: 800;
+font-size: 12px;
+text-transform: uppercase;
+display: inline-block;
+padding: 25px;
+}
+
+/* banner start here========== */
+
+#banner{background-image: url(../img/bg.jpg);
+ width: 1370px;   
+height: 725px;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+color: aliceblue;
+}
+
+#banner .containar{height: 100%;}
+#banner .row{height: 100%;}
+
+
+.banner-cnt{width: 100%;
+ 
+}
+
+.banner-cnt h4{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.banner-cnt h2{
+    font-size: 68px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+.banner-cnt img{display: block;
+margin: auto;
+margin: 52px auto;
+}
+
+/* about mee==== */
+#about{
+    padding: 100px 0;
+}
+
+#about .detail{width: 80%;
+margin:80px auto;
+text-align: center;
+font-size: 16px;
+color: #7e8287;
+}
+
+#about .detail span{
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.about-card{
+width: 25%;
+text-align: center;
+border-right: 1px solid#ccc;
+padding: 25px 0;
+
+}
+.about-card span{color: #02918c;
+font-size: 40px;
+}
+
+.about-card h4{font-size: 16px;
+font-weight: 800;
+color: #7e8287;
+margin: 20px 0;
+}
+
+.about-card p{font-size: 11px;
+    font-weight: 400;
+    color: #7e8287;
+    padding: 0 50px;
+    }
+    .about-card:last-child{
+        border: none;
+    }
+
+    /* service start */
+
+    #service{background-image: url(../img/bg2.jpg);
+        width: 1370px;   
+        height: 725px;
+        background-repeat: no-repeat;
+background-size: cover;
+    }
+
+
+
+#service .heading{margin-right: 50%;
+display: inline-block;
+}
+#service .detail{width: 50%;
+    margin:80px auto;
+    text-align:right 0;
+    font-size: 16px;
+    color: #7e8287;
+    display: inline-block;
+    }
+   
+
+    #service .service-card{width: 25%;
+       
+        text-align: left;
+        font-size: 16px;
+            color: #7e8287;
+        padding: 30px;
+        }
+        
+        .service-card span{color: #02918c;
+            font-size: 40px;}
+
+
+            /* work star */
+            #work{padding: 60px 0;}
+            #work .detail{width: 50%;
+                margin:80px auto;
+                text-align: center;
+                font-size: 16px;
+                color: #7e8287;}
+
+            .work-card{width: 25%;
+                position: relative;
+            
+            }
+            .work-card img{width: 100%;
+            display: block;
+            }
+
+        .work-card .overly{background-color: #02918abb;
+        position: absolute;
+        top:20px;
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+        text-align: center;
+        color: white;
+        padding: 50px;
+        text-transform: capitalize;
+        }
+
+/* ================ conttact me */
+
+#cont-me .detail{width: 50%;
+    margin:80px auto;
+    text-align: center;
+    font-size: 16px;
+    color: #7e8287;}
+
+   .box-1{background-color: #0b1016;
+width: 100%;
+height: 600px;
+color: #7e8287;
+text-align: center;
+}
+
+       #sahed-1 a{margin-top: 400px;}
